@@ -29,3 +29,4 @@ This repository contains the source code for the article
 1. Open and run the notebook you want
 
 ***Note***: *Check the releases if you want the training step output files*
+Using https://github.com/rmohashi/emotion-from-tweet repo
