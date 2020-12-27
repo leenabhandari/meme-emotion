@@ -1,4 +1,4 @@
-# Emotion From Tweet
+# Intelligent Meme Generator
 
 This repository contains the source code for iHACK hackathon organized by Hackerearth and Sentient.io
 ## Problem
