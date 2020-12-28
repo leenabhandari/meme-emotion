@@ -20,17 +20,17 @@ Steps:
 
 ## Steps to reproduce results
 
-To generate video: (Sentient.io APIs)
-![Flowchart](https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
-1. Run ASR with voice detection.
-2. Run video splitting notebook. For now, we have hardcoded the start time values, end time values and the dialogues based on the Avengers Infinity War trailer (which is the videoplayback.mp4 file).
-This generates small clips of dialogs.
-
 To generate model:
 1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
 2. Download sentiment140 dataset from kaggle. Run Train sentiment Analysis notebook. This produces tokenizer.pickle and gru_model.h5 files.
 3. Run Validate API data to get dataset.csv
 4. Run Train Emotion Recognition notebook to get model_weights.h5
+
+To generate video: (Sentient.io APIs)
+![Flowchart](https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
+1. There is Video download notebook(Some APIs didnt give expected result). Run ASR with voice detection notebook.
+2. Run video splitting notebook. For now, we have hardcoded the start time values, end time values and the dialogues based on the Avengers Infinity War trailer (which is the videoplayback.mp4 file).
+This generates small clips of dialogs.
 
 To generate meme-
 
