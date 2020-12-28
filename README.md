@@ -19,7 +19,8 @@ Steps:
 
 
 ## Steps to reproduce results
-** Skip to Generate Meme step to directly run final notebook i.e. with pretrained model and sample video **
+**Skip to Generate Meme step to directly run final notebook i.e. with pretrained model and sample video(Infinity war trailer)**
+
 To generate model:
 1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
 2. Download sentiment140 dataset from kaggle. Run Train sentiment Analysis notebook. This produces tokenizer.pickle and gru_model.h5 files.
@@ -36,7 +37,7 @@ Python packages - moviepy 1.0.3
 To generate meme-
 
 1. Finally, open MEME - generator notebook.
-2. Run step 3 to fetch lates news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
+2. Run step 3 to fetch latest news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
 3. Finally getMeme() function generates the memes. It uses the helper function generateFinalOutput() to combine prediction and video clips.
 
 Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
