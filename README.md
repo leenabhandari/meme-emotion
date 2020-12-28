@@ -20,7 +20,7 @@ Steps:
 
 ## Steps to reproduce results
 
-To generate video:
+To generate video: (Sentient.io)
 ![Flowchart](https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
 1. Run ASR with voice detection.
 2. Run video splitting notebook. 
