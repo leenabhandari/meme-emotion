@@ -36,7 +36,7 @@ Python packages - moviepy 1.0.3
 
 ### Generate meme-
 
-1. Finally, open MEME - generator notebook.
+1. Open MEME - generator notebook.
 2. Run step 3 to fetch latest news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
 3. Finally getMeme() function generates the memes. It uses the helper function generateFinalOutput() to combine prediction and video clips.
 
