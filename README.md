@@ -16,3 +16,23 @@ Steps:
 2. A model is pretrained based on sentiment140 dataset. This calculated values for emotions – Anger, Joy, Fear and Sadness.
 3. Current news is fetched based on category and country. For every dialog in the previous step, emotion is calculated. Same is done for news clippings. The best match of news and dialogs is used to generate memes.
 4. Final output is a set of memes for each dialog in the movie trailer. (getMeme() function in MEME-generator notebook)
+
+
+## Steps to reproduce results
+
+To generate video:
+![Flowchart](https://ibb.co/MsNdZwF][img]https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
+1. Run ASR with voice detection.
+2. Run video splitting notebook. 
+This generates small clips of dialogs for 
+
+To generate model:
+1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
+2. Download sentiment140 dataset from kaggle. Run Train sentiment Analysis notebook. This produces tokenizer.pickle and gru_model.h5 files.
+3. Run Validate API data to get dataset.csv
+4. Run Train Emotion Recognition notebook to get model_weights.h5
+
+To generate meme-
+5. Finally, open MEME - generator notebook.
+6. Run step 3 to fetch lates news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
+7. Finally getMeme() function generates the memes.
