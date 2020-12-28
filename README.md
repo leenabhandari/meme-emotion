@@ -24,7 +24,7 @@ To generate video:
 ![Flowchart](https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
 1. Run ASR with voice detection.
 2. Run video splitting notebook. 
-This generates small clips of dialogs for 
+This generates small clips of dialogs.
 
 To generate model:
 1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
@@ -33,6 +33,7 @@ To generate model:
 4. Run Train Emotion Recognition notebook to get model_weights.h5
 
 To generate meme-
-5. Finally, open MEME - generator notebook.
-6. Run step 3 to fetch lates news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
-7. Finally getMeme() function generates the memes.
+
+1. Finally, open MEME - generator notebook.
+2. Run step 3 to fetch lates news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
+3. Finally getMeme() function generates the memes. It uses the helper function generateResult() to combine prediction and video clips.
