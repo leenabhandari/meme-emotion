@@ -19,7 +19,7 @@ Steps:
 
 
 ## Steps to reproduce results
-**Skip to Generate Meme step to directly run final notebook i.e. with pretrained model and sample video(Infinity war trailer)**
+**NOTE: Skip to Generate Meme step to directly run final notebook i.e. with pretrained model and sample video(Infinity war trailer)**
 
 To generate model:
 1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
