@@ -37,3 +37,5 @@ To generate meme-
 1. Finally, open MEME - generator notebook.
 2. Run step 3 to fetch lates news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
 3. Finally getMeme() function generates the memes. It uses the helper function generateResult() to combine prediction and video clips.
+
+*Note - Here are some challenges faced - Youtube downloader gave "Video not found" error. Video to Audio API, could not access file path. ASR API worked successfully but the result accuracy was not sufficient for models. Manual intervention and hardcoding was done here. The news API response required cleaning and yet the content was insufficient for accurate training. Adding text on video would go out of frame. Overally accuracy was hampered due to insufficient training.*
