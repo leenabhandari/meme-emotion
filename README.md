@@ -19,7 +19,7 @@ Steps:
 
 
 ## Steps to reproduce results
-
+** Skip to Generate Meme step to directly run final notebook i.e. with pretrained model and sample video **
 To generate model:
 1. Run "Fetch Tweets" notebook. In the search Query, run for all 4 emotions namely - #anger, #joy, #fear, #sadness
 2. Download sentiment140 dataset from kaggle. Run Train sentiment Analysis notebook. This produces tokenizer.pickle and gru_model.h5 files.
