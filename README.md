@@ -32,6 +32,9 @@ Steps:
 1. There is Video download notebook(Some APIs didnt give expected result). Run ASR with voice detection notebook.
 2. Run video splitting notebook. For now, we have hardcoded the start time values, end time values and the dialogues based on the Avengers Infinity War trailer (which is the videoplayback.mp4 file).
 This generates small clips of dialogs.
+
+Update:
+Added functionality to get dialogs and split video automatically for all Youtube videos with captions. (MEME Generator dashboard notebook)
 Python packages - moviepy 1.0.3
 
 ### Generate meme-
@@ -39,6 +42,8 @@ Python packages - moviepy 1.0.3
 1. Open MEME - generator notebook.
 2. Run step 3 to fetch latest news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
 3. Finally getMeme() function generates the memes. It uses the helper function generateFinalOutput() to combine prediction and video clips.
+
+### Update - Use Meme Generator Dashboard notebook for GUI interface
 
 Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
 
