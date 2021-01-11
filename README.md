@@ -1,6 +1,6 @@
 # Intelligent Meme Generator
 
-This repository contains the source code for iHACK hackathon organized by Hackerearth and Sentient.io
+### Ranked under Top 8 in iHACK Alpha hackathon organized by Hackerearth and Sentient.io
 ## Problem
 
 
@@ -44,7 +44,7 @@ Python packages - moviepy 1.0.3
 3. Finally getMeme() function generates the memes. It uses the helper function generateFinalOutput() to combine prediction and video clips.
 
 ### Update - Use Meme Generator Dashboard notebook for GUI interface
-
+https://docs.google.com/presentation/d/1UpB0wgajYmjo5Ck34oZpF6GgyF5J20I9z5jlKH5oZ40/edit?usp=sharing \
 Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
 
 *Note - Here are some challenges faced - Youtube downloader gave "Video not found" error. Video to Audio API, could not access file path. ASR API worked successfully but the result accuracy was not sufficient for models. Manual intervention and hardcoding was done here. The news API response required cleaning and yet the content was insufficient for accurate training. Adding text on video would go out of frame. Overally accuracy was hampered due to insufficient training.*
