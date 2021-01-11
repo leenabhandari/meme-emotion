@@ -26,6 +26,7 @@ Steps:
 2. Download sentiment140 dataset from kaggle. Run Train sentiment Analysis notebook. This produces tokenizer.pickle and gru_model.h5 files.
 3. Run Validate API data to get dataset.csv
 4. Run Train Emotion Recognition notebook to get model_weights.h5
+*Model based on https://medium.com/neuronio/from-sentiment-analysis-to-emotion-recognition-a-nlp-story-bcc9d6ff61ae*
 
 ### Get video: (Sentient.io APIs)
 ![Flowchart](https://i.ibb.co/PNCkFXq/Sentinent-Flowchart.jpg)
