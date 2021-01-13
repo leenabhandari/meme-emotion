@@ -10,6 +10,12 @@ The current social media campaigns for promotion of any films include trailers, 
 By leveraging sentiment.io APIs and an ML based model, we plan to build a solution which would create meme automatically and intelligently. The user only needs to submit a video clip URL and rest is taken care of. This would help in achieving the brand awareness and would eventually improve revenue.
 The system uses current news clips to generate movie based memes.
 
+https://docs.google.com/presentation/d/1UpB0wgajYmjo5Ck34oZpF6GgyF5J20I9z5jlKH5oZ40/edit?usp=sharing \
+Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
+
+### Update - Use Meme Generator Dashboard notebook for GUI interface
+[![image](https://www.linkpicture.com/q/Capture_353.png)](https://www.linkpicture.com/view.php?img=LPic5ffe852da7ad31935333040)
+
 ## Implementation
 Steps:
 1. A movie trailer URL is taken as input. The video is downloaded and processed. Text is separated and timestamps are taken for the dialogs. This will generate smaller video clips for each dialog. Sentient.io API is used here.
@@ -43,9 +49,5 @@ Python packages - moviepy 1.0.3
 1. Open MEME - generator notebook.
 2. Run step 3 to fetch latest news articles. Here, you can change country(in,us,etc.) and category(antertainment,business,etc.).
 3. Finally getMeme() function generates the memes. It uses the helper function generateFinalOutput() to combine prediction and video clips.
-
-### Update - Use Meme Generator Dashboard notebook for GUI interface
-https://docs.google.com/presentation/d/1UpB0wgajYmjo5Ck34oZpF6GgyF5J20I9z5jlKH5oZ40/edit?usp=sharing \
-Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
 
 *Note - Here are some challenges faced - Youtube downloader gave "Video not found" error. Video to Audio API, could not access file path. ASR API worked successfully but the result accuracy was not sufficient for models. Manual intervention and hardcoding was done here. The news API response required cleaning and yet the content was insufficient for accurate training. Adding text on video would go out of frame. Overally accuracy was hampered due to insufficient training.*
