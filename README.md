@@ -14,7 +14,7 @@ https://docs.google.com/presentation/d/1UpB0wgajYmjo5Ck34oZpF6GgyF5J20I9z5jlKH5o
 Final output sample- https://drive.google.com/file/d/1ce0qI_mr57b1ycVQ0zIaKu_kIX5IoMKD/view?usp=sharing
 
 ### Update - Use Meme Generator Dashboard notebook for GUI interface
-[![image](https://www.linkpicture.com/q/Capture_353.png)](https://www.linkpicture.com/view.php?img=LPic5ffe852da7ad31935333040)
+[![image](https://i.ibb.co/gFKvbSb/Screenshot-2022-03-01-141433.png)
 
 ## Implementation
 Steps:
